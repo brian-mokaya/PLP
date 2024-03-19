@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <!-- Add some basic styling for the page -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+        }
+        .menu {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <!-- Navigation menu -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#menu">Menu</a>
+    </nav>
+    <!-- Home section -->
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to my image links page! Explore the world of technology, nature, and food.</p>
+        <!-- Link to technology image -->
+        <a href="1"><img src="technology.jpeg" alt="Technology"></a>
+    </section>
+    <!-- Gallery section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <!-- Links to nature images -->
+            <a href="2"><img src="nature1.jpg" alt="Nature 1"></a>
+            <a href="3"><img src="nature2.jpg" alt="Nature 2"></a>
+            <a href="4"><img src="nature3.jpeg" alt="Nature 3"></a>
+        </div>
+    </section>
+    <!-- Menu section -->
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul class="menu">
+            <!-- Links to food images -->
+            <li><a href="5"><img src="food1.jpeg" alt="Food 1"></a></li>
+            <li><a href="6"><img src="food2.jpeg" alt="Food 2"></a></li>
+            <li><a href="7"><img src="food3.jpeg" alt="Food 3"></a></li>
+        </ul>
+    </section>
+</body>
+</html>
